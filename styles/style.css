@@ -55,11 +55,14 @@ ol {
 
 .content {
   display: grid;
-  grid-area: 2/4/1/2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+.result {
+  grid-area: 1/1/1/1;
+}
+
+.content__details {
+  grid-area: 1/1/2/2;
 }
 
 .content__list-container {
